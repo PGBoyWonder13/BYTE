@@ -19,9 +19,9 @@ def signup():
     return render_template('signup.html')
 
 
-@app.route('/rules')
-def rules():
-    return render_template('rules.html', rules_active=True)
+@app.route('/contact')
+def contact():
+    return render_template('contact.html', contact_active=True)
 
 
 @app.route('/about')
